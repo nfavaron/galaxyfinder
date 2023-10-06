@@ -1,5 +1,5 @@
 # GalaxyFinder: JSPM + SystemJS + ES5
-The goal is learn Object-Oriented Programming with JavaScript ES5, by building a solar system.
+The goal is to learn Object-Oriented Programming with JavaScript ES5, by building a solar system.
 Be creative and have fun while learning!
 
 ### [Live example of HTML rendering](https://galaxyfinder-production.web.app/)
