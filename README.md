@@ -1,7 +1,15 @@
-# GalaxyBuilder: JSPM + SystemJS + ES5
+# GalaxyFinder: JSPM + SystemJS + ES5
+The goal is to build a solar system using Object Oriented Programming in JavaScript ES5, be creative and have fun while learning!
+
+### [Live example of HTML rendering](https://galaxyfinder-production.web.app/).
+![HTML rendering](./html.png)
+
+### [Live example of WebGL rendering](https://galaxyfinder-production.web.app?3d).
+![WebGL rendering](./webgl.png)
+
 
 ## Lesson 1
-- ES5, ES6, Typescript
+- ES5
 - Transpiler
 - Polyfill
 - SystemJS / Webpack
