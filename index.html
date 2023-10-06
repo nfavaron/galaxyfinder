@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>GalaxyFinder</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="src/css/component/index.css" rel="stylesheet" />
+</head>
+<body>
+<div id="galaxyfinder"></div>
+<script src="jspm_packages/system.js"></script>
+<script>
+    System.import('src/js/system.config.js').then(function () {
+        System.import('src/js/component/index');
+    });
+</script>
+</body>
+</html>

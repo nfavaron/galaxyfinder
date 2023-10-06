@@ -1,0 +1,29 @@
+{
+  "name": "galaxyfinder",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "lite-server",
+    "bundle:index": "jspm bundle-sfx src/js/component/index.js dist/index.bundle.js"
+  },
+  "author": "Nicolas Favaron",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "2.3.0"
+  },
+  "jspm": {
+    "configFile": "src/js/system.config.js",
+    "dependencies": {
+      "core-js": "npm:core-js@^1.1.4",
+      "mrdoob/three.js": "github:mrdoob/three.js@master"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24"
+    }
+  },
+  "dependencies": {
+    "jspm": "0.16.53",
+    "lite-server": "^2.3.0"
+  }
+}
